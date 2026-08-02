@@ -106,9 +106,6 @@ Restart Claude Desktop, then ask: *"What notes do I have?"* or *"Add a note abou
 
 ## Screenshots
 
-_(Add screenshots here: app UI, AI summary in action, MCP tool call working in Claude Desktop)_
+_<img width="1920" height="1080" alt="Screenshot (577)" src="https://github.com/user-attachments/assets/1da23974-087d-4995-ae37-64c50dc61205" />
+<img width="1920" height="1080" alt="Screenshot (578)" src="https://github.com/user-attachments/assets/01649469-b1aa-4e69-8d26-8913fa80b8e3" />
 
-## Notes for the Reviewer
-
-- AI provider swapped from Claude/OpenAI to Gemini due to account credit limits — see note above.
-- MCP server code is complete and calls the same Express API as the frontend; connection to Claude Desktop was in progress at submission time.
