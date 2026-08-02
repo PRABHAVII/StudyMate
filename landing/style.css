@@ -1,0 +1,122 @@
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --card-bg: #f5f5fa;
+  --accent: #4a5cff;
+}
+
+[data-theme="dark"] {
+  --bg: #121218;
+  --text: #f0f0f5;
+  --card-bg: #1e1e28;
+  --accent: #7c8bff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.3s, color 0.3s;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  padding: 4rem 1.5rem 3rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.pitch {
+  max-width: 500px;
+  margin: 0 auto 2rem;
+  color: var(--text);
+  opacity: 0.8;
+}
+
+.open-app-btn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background: var(--accent);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.open-app-btn:hover {
+  transform: translateY(-2px);
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: var(--card-bg);
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.features {
+  display: flex;
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature-card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 1.5rem;
+  flex: 1 1 260px;
+  max-width: 300px;
+}
+
+.feature-card h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.feature-card p {
+  opacity: 0.8;
+  line-height: 1.5;
+}
+
+.footer {
+  text-align: center;
+  padding: 1.5rem;
+  opacity: 0.6;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-card {
+    max-width: 100%;
+    width: 100%;
+  }
+}
