@@ -104,8 +104,4 @@ Restart Claude Desktop, then ask: *"What notes do I have?"* or *"Add a note abou
 | DELETE | `/api/notes/:id` | Delete a note |
 | POST | `/api/notes/:id/summarize` | Generate AI summary + quiz question |
 
-## Screenshots
-
-_<img width="1920" height="1080" alt="Screenshot (577)" src="https://github.com/user-attachments/assets/1da23974-087d-4995-ae37-64c50dc61205" />
-<img width="1920" height="1080" alt="Screenshot (578)" src="https://github.com/user-attachments/assets/01649469-b1aa-4e69-8d26-8913fa80b8e3" />
 
